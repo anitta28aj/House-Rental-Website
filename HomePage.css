@@ -1,0 +1,183 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+header {
+    background: url('https://static.vecteezy.com/system/resources/previews/036/725/193/non_2x/ai-generated-real-estate-advertisment-background-with-copy-space-free-photo.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the whole header */
+    color: #363b4b; /* Text color */
+    padding: 150px 20px; /* Adjusted padding for more height */
+    position: relative;
+    height: auto;
+    font-size: 3rem;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-buttons button {
+    background-color: #363b4b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+    background-color: #256f8a; /* Darken on hover */
+}
+
+/* Navbar */
+.navbar {
+    background: #e1f4f8;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #040a1c;
+    font-size: large;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #256f8a;
+    color: #fff;
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 50px;
+    text-align: center;
+    background-color: #da926e;
+}
+
+/* Global button styles */
+.button-image {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Button Container Styling */
+.button-container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.button-container a {
+    text-decoration: none; /* Removes underline */
+}
+.button-container:hover {
+    transform: scale(1.05);
+}
+
+.button-text {
+    font-size: 20px;
+    color: #363b4b;
+    transition: color 0.3s ease-in-out;
+}
+
+.button-container:hover .button-text {
+    color: #e1f4f8;
+}
+
+.trending-properties {
+    padding: 50px;
+    text-align: center;
+    background-color: #d0d2d7;
+    color: #363b4b;
+}
+
+.property-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.property-item a {
+    text-decoration: none; /* Removes underline */
+}
+
+.property-item {
+    background-color: #363b4b;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.property-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.property-item h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.property-item p {
+    margin: 5px 0;
+}
+
+.property-item button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: fff;
+    color: #363b4b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.property-item button:hover {
+    background-color: #b5b5b5;
+}
+
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

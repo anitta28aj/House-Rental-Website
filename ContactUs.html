@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - House Rental Website</title>
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+<body>
+    <header>
+        <h1><strong>CONTACT US</strong></h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Policies.html">Policies</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+<main>
+    <div class="container">
+        <!-- Section 1: Contact Form -->
+        <section class="contact-form-section">
+            <h2>Contact Form</h2>
+            <form action="HomePage.html" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Drop your Query here:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+
+        <!-- Section 2: Direct Contact Information -->
+        <section class="direct-contact-info">
+            <h2>Direct Contact Information</h2>
+            <p>If you'd prefer to contact us directly, you can reach us at the following:</p>
+            <p><strong>Phone:</strong> +91 9746897885</p>
+            <p><strong>Email:</strong> anitta.aj@houserental.com</p>
+            <p><strong>Address:</strong> Christ University, Bengaluru, Karnataka, India</p>
+        </section>
+
+        <!-- Section 3: FAQs -->
+        <section class="faqs-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <h4>What services do you offer?</h4>
+                <p>We offer a range of rental options including short-term stays, long-term rentals, and buying or selling properties.</p>
+            </div>
+            <div class="faq">
+                <h4>How do I contact customer support?</h4>
+                <p>You can contact our customer support via the contact form, phone number, or email provided above.</p>
+            </div>
+            <div class="faq">
+                <h4>Where are your offices located?</h4>
+                <p>Our main office is located at 1234 Elm Street, Springfield, USA. We also have branch offices in major cities nationwide.</p>
+            </div>
+            <div class="faq">
+                <h4>How can I list my property on your platform?</h4>
+                <p>To list your property, sign up as an owner on our website and follow the step-by-step listing guide provided in your account dashboard.</p>
+            </div>
+            <div class="faq">
+                <h4>What should I do if I forget my account password?</h4>
+                <p>If you forget your password, use the "Forgot Password" option on the login page to reset it. You'll receive an email with instructions.</p>
+            </div>
+            <div class="faq">
+                <h4>Is my personal information secure on your website?</h4>
+                <p>Yes, we prioritize your privacy and security. Our platform is equipped with the latest security measures to protect your data.</p>
+            </div>
+        </section>
+    </div>
+</main>
+    <footer>
+        <p>&copy; 2024 House Rental Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // FAQ Toggle Functionality - Close other FAQs when one is clicked
+        document.querySelectorAll('.faqs-section h4').forEach((question) => {
+            question.addEventListener('click', () => {
+                document.querySelectorAll('.faq p').forEach((answer) => {
+                    answer.style.display = 'none'; // Hide all answers
+                });
+                const answer = question.nextElementSibling;
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none'; // If already open, close it
+                } else {
+                    answer.style.display = 'block'; // Show only the clicked answer
+                }
+            });
+        });
+    </script>
+</body>
+</html>

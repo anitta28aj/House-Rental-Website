@@ -1,0 +1,168 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+header {
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/030/473/945/small_2x/the-sun-sets-over-a-lake-surrounded-by-trees-photo.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the whole header */
+    color: #363b4b; /* Text color */
+    padding: 100px 20px; /* Adjusted padding for more height */
+    position: relative;
+    height: auto;
+    font-size: 3rem;
+}
+
+h5{
+    position: absolute;
+    top: 0px; /* Adjust as needed to position it vertically */
+    left: 20px; /* Adjust as needed for horizontal positioning */
+    text-align: left; /* Align text to the right */
+    font-size: medium;
+}
+
+/* Navbar */
+.navbar {
+    background: #e1f4f8;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #040a1c;
+    font-size: large;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #256f8a;
+    color: #fff;
+}
+/* Main Content Section */
+.main-content {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffdccb;
+}
+
+/* Global button styles */
+.button-image {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Button Container Styling */
+.button-container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.button-container a {
+    text-decoration: none; /* Removes underline */
+}
+.button-container:hover {
+    transform: scale(1.05);
+}
+
+.button-text {
+    font-size: 20px;
+    color: #363b4b;
+    transition: color 0.3s ease-in-out;
+}
+
+.button-container:hover .button-text {
+    color: #e1f4f8;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-buttons button {
+    background-color: #363b4b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+    background-color: #256f8a; /* Darken on hover */
+}
+footer{
+    text-align: center;
+    color: #f8f7f7;
+    background-color: black; 
+    border-radius: 0px;
+    padding: 20px;
+    margin: 20px 0 0 0; /* Only top and bottom margin */
+}
+
+/* My Bookings Section */
+.my-bookings {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.my-bookings h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.my-bookings table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-bookings table th,
+.my-bookings table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.my-bookings table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.my-bookings table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.my-bookings p {
+    color: #666;
+    font-size: 16px;
+}
+
+.my-bookings td {
+    font-size: 15px;
+    color: #444;
+}

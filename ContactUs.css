@@ -1,0 +1,208 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', sans-serif;
+    background: url('https://img.freepik.com/premium-photo/room-with-blue-wall-potted-plants-floor_517312-34963.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+/* Section Styles */
+.direct-contact-info, .faqs-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* FAQ Styles */
+.faq h4 {
+    cursor: pointer;
+    padding: 20px;
+    margin: 0;
+    background: #256f8a;
+    color: #fff;
+    border: 1px solid #ddd;
+}
+
+.faq p {
+    padding: 10px;
+    background: #f9f9f9;
+    display: none;
+}
+
+/* Global Styles */
+
+
+/* Transparent effect for header, footer, and sections */
+footer, main section {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust transparency here */
+    border-radius: 0px;
+    padding: 20px;
+    margin: 20px 0; /* Only top and bottom margin */
+}
+
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 20px;
+    background-color: #e1f4f8;
+}
+
+.navbar {
+    background: #e1f4f8;
+    padding: 15px;
+    position: sticky;
+    top: 0%;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #363b4b;
+    font-size: large;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #256f8a;
+    color: #fff;
+}
+
+header h1{
+    font-size: 3rem;
+    color: #363b4b;
+}
+/* Section Styles */
+section {
+    margin: 30px;
+}
+
+/* Section Titles */
+h2 {
+    color: #363b4b;
+}
+
+/* Paragraph and List Styles */
+p, li {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #363b4b;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Darker transparent footer */
+    color: #fff;
+
+}
+
+/* Additional Styling for Lists */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Contact Form Section Styles */
+.contact-form-section {
+    width: 50%; /* Set width of the form */
+    margin: 20px auto; /* Center the form within the section */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(56, 56, 56, 0.2); /* Light shadow for depth */
+}
+
+/* Form header */
+.contact-form-section h2 {
+    text-align: center;
+    color: #256f8a;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Grande', Geneva, sans-serif;
+}
+
+/* Style for individual form groups */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Labels style */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Space below label */
+    color: #256f8a; /* Custom label color */
+}
+
+/* Inputs, Textareas, and Select fields */
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full-width form elements */
+    padding: 12px; /* Adequate padding for elements */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 1rem; /* Font size */
+    font-family: 'Lucida Sans', sans-serif; /* Consistent font */
+}
+
+/* Textarea specifics */
+.form-group textarea {
+    resize: vertical; /* Allow only vertical resizing */
+}
+
+/* Submit Button Style */
+button {
+    width: 100%; /* Full-width button */
+    padding: 15px; /* Button padding */
+    background-color: #256f8a; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px; /* Button rounded corners */
+    font-size: 1rem; /* Button font size */
+    font-family: 'Lucida Sans', sans-serif; /* Matching font */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Submit Button Hover Effect */
+button:hover {
+    background-color: #154455; /* Change background on hover */
+}
+
+/* Responsive Form Styles */
+@media (max-width: 768px) {
+    .contact-form-section {
+        width: 90%; /* Increase width on smaller screens */
+    }
+
+    button {
+        font-size: 0.9rem; /* Adjust button font size */
+    }
+}

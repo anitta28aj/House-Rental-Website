@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #edfcff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-box {
+    background-color: #b7dce3;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], select {
+    width: 100%;
+    padding: 15px ;
+    margin: 10px 0;
+    border: 1px solid #154455;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+button {
+    background-color: #256f8a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #154455;
+}
+
+.login-link {
+    margin-top: 15px;
+}
+
+a {
+    color: #256f8a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

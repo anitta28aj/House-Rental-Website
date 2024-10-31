@@ -1,0 +1,68 @@
+/* PropertyDetails.css */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #256f8a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.property-details {
+    display: flex;
+    margin: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+.property-image img {
+    width: 400px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.property-info {
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #e1f4f8;
+}
+
+.book-now-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #256f8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.book-now-btn:hover {
+    background-color: #154b5f;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust transparency here */
+    border-radius: 0px;
+    padding: 20px;
+    margin: 20px 0; /* Only top and bottom margin */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Darker transparent footer */
+    color: #fff;
+}

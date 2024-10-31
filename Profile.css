@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center; /* Aligns children horizontally */
+    align-items: center; /* Aligns children vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin */
+    font-family: 'Lucida Sans', sans-serif; /* Optional: Set a font for the body */
+    background-color: #edfcff; /* Optional: Set a background color */
+}
+
+.profile-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 20px; /* Inner spacing */
+    text-align: center; /* Center align text inside the box */
+    width: 300px; /* Fixed width for the profile box */
+    background-color: #b7dce3;
+}
+.action-buttons {
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.button {
+    display: inline-block; /* Allows padding and background */
+    padding: 10px 15px; /* Padding for button */
+    margin: 5px; /* Space between buttons */
+    background-color: #256f8a; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #154455; /* Darker shade on hover */
+}
